@@ -2,14 +2,15 @@ import React from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar';
+import SearchApi from './components/SearchApi';
 
 function App() {
+
   return (
     <div>
       <Navbar />
-      <h1>Let the games begin! </h1>
+      <SearchApi />
     </div>
-
   );
 }
 
